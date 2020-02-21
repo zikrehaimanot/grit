@@ -1,0 +1,279 @@
+* {
+  box-sizing: border-box;
+}
+header{
+  background-color: slategrey;
+  height: 300px;
+}
+header a, header img,{
+  float: left;
+}
+header a{
+  margin-right:50px;
+  color: white;
+  text-decoration: none;
+}
+/* THE BUTTON CODE WAS USED FROM A GENERATER */
+.button{
+	background-color:white;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:8px 14px;
+	text-decoration:none;
+}
+.button:hover {
+	background-color:#f7f9fc;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+header img{
+  margin-right: 600px;
+  margin-left: 600px;
+  width: 1%;
+}
+h1{
+  color: white;
+  width: 50%;
+  text-align: center;
+  margin-left: 420px;
+  padding-top: 55px;
+}
+header p {
+  color: white;
+  width: 75%;
+  padding-left: 480px;
+  text-align: center;
+}
+.video{
+  margin-left: 750px;
+}
+h5{
+  /* width: 30%; */
+  font-size: 23px;
+  color: slategrey;
+  text-align: center;
+  margin: 0;
+}
+h5+p{
+  width: 40%;
+  margin-left: 500px;
+}
+
+.boxContainer {
+  background:lightgrey;
+  height: 500px;
+}
+.whyContainer{
+  text-align: center;
+  height: 30vh;
+  padding: 60px 0 50px 0;
+}
+.boxes{
+  width: 30%;
+  height: 400px;
+  float: left;
+  margin-left: 220px;
+  background-color: lightgrey;
+  text-align: center;
+}
+.boxes section{
+  width: 45%;
+  height: 100px;
+  margin-left: 135px;
+  margin-top: 80px;
+  background-color: slategrey;
+}
+.boxes p{
+  font-size: 13px;
+  text-align: center;
+}
+.myButton {
+	background-color:transparent;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:13px;
+	padding:10px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-left: -33px;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.lastSec{
+  height: 350px;
+  clear: both;
+  width: 33%;
+  margin-left: 540px;
+  margin-top: 70px;
+}
+.lastSec h3{
+  text-align: center;
+}
+.lastSec p{
+  text-align: center;
+}
+.lastSec .myButton{
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.bottomBlack{
+  width: 80%;
+  height: 240px;
+
+  clear: both;
+  float: left;
+}
+.handleList{
+  list-style: none;
+  float: left;
+}
+.handleList li{
+  float: left;
+  padding-left: 5px;
+}
+.siteMap{
+  clear: both;
+  width: 30%;
+}
+.siteMap ul{
+  list-style: none;
+}
+.siteMap p{
+padding-top: 5px;
+padding-left: 10px;
+}
+.siteMap a{
+  padding-left: 5px;
+  text-decoration: none;
+}
+/* .blackLine{
+  border-bottom: 1px solid black;
+  width: 100%;
+} */
+.bottomTopLeft{
+  width: 18%;
+  height: 240px;
+  float: left;
+}
+.finalLine{
+  width: 100%;
+  border-top: 1px solid white;
+  clear: both;
+  background-color: black;
+  height: 70px;
+}
+.finalLine p{
+  float: left;
+  background-color: black;
+}
+.finalLine img{
+  float: left;
+  padding-left: 800px;
+}
+footer{
+  background-color: black;
+  color: white;
+}
+footer a{
+  color: grey;
+}
+footer p{
+  color: white;
+}
+@media only screen and (max-width:1200px){
+  h1{
+    display: none;
+  }
+  header p{
+    display: none;
+  }
+  header img{
+    display: none;
+  }
+.video{
+  margin: 0;
+}
+.whyContainer h5{
+ margin: 0;
+ width: 100%;
+ padding: 0;
+}
+.whyContainer p{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.boxes{
+  margin-left: 0;
+  width: 100%;
+  height: auto;
+}
+.lastSec{
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 100%;
+}
+footer{
+  width: 100%;
+}
+.finalLine img{
+  display: none;
+}
+}
+@media (min-width:530px) and (max-width:1300px){
+  .boxes section:first-of-type{
+    display: none;
+  }
+  .whyContainer{
+    width: 100%;
+    height: 40vh;
+  }
+  .boxes{
+    margin-bottom: 30px;
+  }
+  .lastSec .myButton{
+    margin-left: 350px;
+  }
+  header{
+    height: 150px;
+  }
+}
+@media (min-width:1201px)and (max-width:1500px){
+  .finalLine img{
+    display: none;
+  }
+  header{
+    height: 348px;
+  }
+  h5+p{
+    margin-left: 400px;
+  }
+  .boxes{
+    margin-left: 150px;
+  }
+  .whyContainer{
+    margin-bottom: 100px;
+  }
+  .lastSec{
+    margin-left: 400px;
+  }
+  .lastSec .myButton{
+    margin-left: 140px;
+  }
+}
