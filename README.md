@@ -4,7 +4,7 @@ A recreation of a website for a Boston based gym.
 
 ##  Link To Live Site:
 
-zikregrit.netlify.com
+https://zikregrit.netlify.com/
 
 ![grid website](gritGit.png)
 
